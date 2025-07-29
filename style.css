@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    font-family: "Lexend", sans-serif;
+    width: 100vw;
+    color: white;
+}
+
+nav {
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+ul {
+    display: flex;
+padding: 0%;
+    gap: 2rem;
+     list-style: none;
+}
+
+
+
+
+.navtext { 
+   
+    text-decoration: none;
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-style: bold;
+  
+}
+
+.logo {
+    width: 60px;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   font-size: 10px;
+
+}
+
+.catchy {
+    margin-top: 4rem;
+    margin-bottom: 0px;
+}
+
+
+
+.pixeleffect {
+    width: 80px;
+}
+
+
+.undercatchy {
+    margin-top: 6px;
+}
