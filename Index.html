@@ -4,18 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+ <link rel="stylesheet" href="style.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="wrapper"></div>
+    <div class="wrapper">
+    <div class="backgroundwrap">
     <nav>
         <img src="bilder/logo.png" alt="Logotype" class="logo">
         <ul>
-        <li class="navbar"><a class="navtext" href="#">Home</a></li>
+        <li class="navbar"><a class="nav-link-active" href="#">Home</a></li>
         <li class="navbar"><a class="navtext" href="#">Book</a></li>
         <li class="navbar"><a class="navtext" href="#">About</a></li>
         <li class="navbar"><a class="navtext" href="#">Contact</a></li>
@@ -26,14 +31,55 @@
 
     <header>
         <div class="text">
-         <h1 class="catchy">TURNING IDEAS INTO PIXELS</h1>
+         <h1 class="catchy">TURNING <span style="color: rgb(0, 255, 191)">IDEAS</span> INTO <span style="color: rgb(0, 255, 191)">PIXELS</span></h1>
          <h2 class="undercatchy">WELCOME TO MY PORTFOLIO</h2>
          </div>
                   <div class="pixel">
          <img src="bilder/pixeleffect.png" alt="pixel effect beside header text" class="pixeleffect">
          </div>
     </header>
+</div>
+ 
 
+<section class="splide" role="group" aria-label="Splide Basic HTML Example">
+  <h1 class="mywork">MY WORK</h1> 
+    <div class="splide__track">
+		<ul class="splide__list">
+			<li class="splide__slide"><div class="videowrapper"><video src="video/auto.mp4" autoplay muted loop playsinline ></video></div></li>
+			<li class="splide__slide"><div class="videowrapper"><video src="video/beauty.mp4" autoplay muted loop playsinline ></video></div></li>
+			<li class="splide__slide"><div class="videowrapper"><video src="video/two.mp4" autoplay muted loop playsinline ></video></div></li>
+		</ul>
+  </div>
+</section>
+
+
+<section class="vision">
+    <Div class="section-text">
+    <h1 class="fullfill">FULLFILL</h1>
+    <H1 class="with">YOUR VISION WITH ME</H1>
+    </Div>
+    <div class="flexwrap">
+      <div class="card">
+    <p class="boxtextone">I’m a passionate web designer and developer who turns ideas into functional, beautiful digital products. Whether it’s a responsive website, a sleek interface, or a complete brand identity — I build with purpose and creativity.</p>
     </div>
+    <div class="cardseprate">
+    <h2> HAVE AN IDEA?</h2>
+    <H2>LETS MAKE IT REAL</H2>
+    <a href="#" class="button-two">Book</a>
+    </div>
+     </Div>
+</section>
+
+</div>
+<script>
+  new Splide( '.splide',{
+    arrows: false,
+    pagination: false,
+    focus: 'center',
+    type: 'loop',
+    perpage: 3,
+   gap: '0',
+   } ).mount();
+</script>
 </body>
 </html>
