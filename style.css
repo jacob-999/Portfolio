@@ -213,31 +213,14 @@ background: rgb(212, 212, 212);
 }
 
 .vision p {
-    margin: 0;
-    width: 200px;
-    background: rgba(0, 0, 0, 0.5);
-    font-size: 10px;
-    padding: 30px;
-     text-align: center;
-     border-radius: 5px;
-    backdrop-filter: blur(11px) saturate(180%);
-    -webkit-backdrop-filter: blur(11px) saturate(180%);
-    background-color: rgba(17, 25, 40, 0.19);
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.125);
-    line-height: 20px;
- transition: all 0.3s ease;
+text-align: center;
      font-family: "Open Sans", sans-serif;
     font-weight: 150;
 
 }
 
-.boxtextone:hover {
-    transform: scale(1.07);
-    transition: all 0.3s ease;
-}
 
-.cardseprate:hover {
+.cards:hover {
     transform: scale(1.07);
     transition: all 0.3s ease;
 }
@@ -256,9 +239,11 @@ background: rgb(212, 212, 212);
     margin: 0;
 }
 
-.cardseprate {
+.cards {
+    margin-top: 30px;
     font-size: 10px;
     padding: 16px;
+    width: 150px;
     height: fit-content;
          border-radius: 5px;
     backdrop-filter: blur(11px) saturate(180%);
@@ -271,15 +256,17 @@ background: rgb(212, 212, 212);
          transition: all 0.3s ease;
 }
 
-.cardseprate h2 {
+.card-header {
+font-family: "Lexend", sans-serif;
+}
+
+
+.card-paragraf {
 Font-family: "Open Sans", sans-serif;
-font-weight: 150;
+font-weight: 100;
+font-size: 8px;
 }
 
-
-.cardseprate a { 
- text-decoration: none;
-}
 
 .flexwrap {
     display: flex;
@@ -288,6 +275,7 @@ font-weight: 150;
 
 
 .button-two {
+    margin: 15px;
   padding: 3px 20px;
   border-radius: 3px;
   font-size: 6px;
