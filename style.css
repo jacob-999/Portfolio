@@ -205,11 +205,12 @@ background: rgb(212, 212, 212);
 .vision {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(bilder/cube.jpg);
     background-size: cover;
-    height: 800px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100vw;
 }
 
 .vision p {
@@ -251,13 +252,14 @@ text-align: center;
     background-color: rgba(17, 25, 40, 0.19);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
-    line-height: 20px;
+    line-height: 10px;
      text-align: center;
          transition: all 0.3s ease;
 }
 
 .card-header {
 font-family: "Lexend", sans-serif;
+line-height: 20px;
 }
 
 
@@ -265,6 +267,7 @@ font-family: "Lexend", sans-serif;
 Font-family: "Open Sans", sans-serif;
 font-weight: 100;
 font-size: 8px;
+margin-bottom: 20px;
 }
 
 
@@ -294,4 +297,88 @@ font-size: 8px;
 .button-two:hover {
   color: #000000;
   background: #ffffff;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+         background-image: url(bilder/footerbackground.jpg);
+     background-size: cover;
+     width: 100vw;
+     padding: 50px;
+}
+
+
+.card-footer {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    font-size: 10px;
+    padding: 16px;
+    width: 150px;
+    height: fit-content;
+         border-radius: 5px;
+    backdrop-filter: blur(11px) saturate(180%);
+    -webkit-backdrop-filter: blur(11px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.19);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.319);
+    line-height: 20px;
+     text-align: center;
+         transition: all 0.3s ease;
+}
+
+
+.card-footer:hover {
+    transform: scale(1.07);
+    transition: all 0.3s ease;
+}
+
+
+.card-footerheader {
+font-family: "Lexend", sans-serif;
+}
+
+
+.card-footerparagraf {
+Font-family: "Open Sans", sans-serif;
+font-weight: 100;
+font-size: 8px;
+}
+
+
+
+
+
+.footer-placeholder {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    font-size: 10px;
+    padding: 16px;
+    width: 800px;
+    height: fit-content;
+         border-radius: 5px;
+    backdrop-filter: blur(11px) saturate(180%);
+    -webkit-backdrop-filter: blur(11px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.19);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.319);
+    line-height: 20px;
+         transition: all 0.3s ease;
+}
+
+.flexwrapheadertext-footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.flexwrapparagraftext-footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
 }
