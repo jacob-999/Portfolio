@@ -7,6 +7,12 @@ body {
     margin: 0px;
     overflow-x: hidden
 }
+
+.wrapper {
+    width: 100vw;
+}
+
+
 html, body {
   overflow-x: hidden;
   width: 100%;
@@ -59,7 +65,7 @@ gap: 2rem;
 
 .booknow {
   padding: 3px 20px;
-  border-radius: 2px;
+  border-radius: 10px;
   font-size: 6px;
   color: #ffffff;
   text-shadow: none;
@@ -226,6 +232,12 @@ text-align: center;
     transition: all 0.3s ease;
 }
 
+.cards:hover .cards {
+    filter: blur(15px);
+}
+
+
+
 .section-text {
     text-align: center;
     margin-bottom: 30px;
@@ -244,6 +256,7 @@ text-align: center;
     margin-top: 30px;
     font-size: 10px;
     padding: 16px;
+    padding-bottom: 26px;
     width: 150px;
     height: fit-content;
          border-radius: 5px;
@@ -280,7 +293,7 @@ margin-bottom: 20px;
 .button-two {
     margin: 15px;
   padding: 3px 20px;
-  border-radius: 3px;
+  border-radius: 10px;
   font-size: 6px;
   color: #ffffff;
   text-shadow: none;
@@ -302,14 +315,15 @@ margin-bottom: 20px;
 
 
 footer {
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-evenly;
     margin: 0;
-         background-image: url(bilder/footerbackground.jpg);
-     background-size: cover;
-     width: 100vw;
+background: #ffffff;
+     width: 100%;
      padding: 50px;
 }
 
@@ -353,32 +367,82 @@ font-size: 8px;
 
 
 
-
-.footer-placeholder {
-        margin-top: 30px;
-        margin-bottom: 100px;
-    font-size: 10px;
-    padding: 16px;
-    width: 800px;
-    height: fit-content;
-         border-radius: 5px;
-    backdrop-filter: blur(11px) saturate(180%);
-    -webkit-backdrop-filter: blur(11px) saturate(180%);
-    background-color: rgba(17, 25, 40, 0.19);
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.319);
-    line-height: 20px;
-         transition: all 0.3s ease;
+.booksectionhome {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+         background-image:     linear-gradient(rgba(15, 15, 15, 1.5), rgba(0, 0, 0, 0.888)),
+         url(bilder/footerbackground.jpg);
+     background-size: cover;
+     width: 100vw;
+     padding: 50px;
+     padding-top: 100px;
 }
 
-.flexwrapheadertext-footer {
+.lane {
+    width: 150px;
+    height: 90px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerheader {
+    font-size: 11px;
+    margin: 0%;
+}
+
+.footercontent {
+  font-size: 8px;
+    font-weight: 200;
+    margin: 0;
+}
+
+
+
+.footerlinks {
+        font-size: 8px;
+    font-weight: 200;
+    text-decoration: none;
+    color: black;
+}
+
+
+.main-book {
+    padding-top: 100px;
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
 }
 
-.flexwrapparagraftext-footer {
+.form-conatiner {
     display: flex;
-    justify-content: center;
-    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 20px;
+    background: #d7d7d7;
+    padding: 30px;
+    border-radius: 8px;
+    color: #000000;
+    width: 300px;
 }
+
+input,textarea {
+    font-size: 7px;
+    padding: 5px;
+    color: #ffffff;
+    background: #000000;
+    border-radius: 8px;
+}
+
+label {
+    Font-family: "Open Sans", sans-serif;
+font-weight: 100;
+font-size: 11px;
+}
+
+
+
+
