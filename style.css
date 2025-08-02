@@ -187,10 +187,9 @@ text-align: center;
 .cards:hover {
     transform: scale(1.07);
     transition: all 0.3s ease;
-}
-
-.cards:hover .cards {
-    filter: blur(15px);
+        border: #00ffe1 1px solid;
+    box-shadow: 0 0 3px #00ffe1;
+    
 }
 
 
@@ -306,6 +305,8 @@ footer {
 .card-footer:hover {
     transform: scale(1.07);
     transition: all 0.3s ease;
+        border: #00ffe1 1px solid;
+     box-shadow: 0 0 3px #00ffe1;;;
 }
 
 
@@ -381,6 +382,7 @@ font-size: 8px;
  background: #000000;
  display: flex;
     justify-content: center;
+    padding-bottom: 150px;
 }
 
 .form-conatiner {
@@ -469,17 +471,16 @@ input[type=submit]:hover {
     grid-template-rows: repeat(2, 1fr);
     gap: 2rem;
     margin-top: 25px;
-    margin-bottom: 25px;
+    padding-bottom: 100px;
 }
 
 
 #cards {
-    background: #b7b7b7;
     width: fit-content;
     height: fit-content;
     padding: 25px;
     border-radius: 5px;
-    color: #000000;
+    color: #ffffff;
     font-size: small;
         display: flex;
     flex-direction: column;
@@ -487,11 +488,19 @@ input[type=submit]:hover {
     align-items: center;
     text-align: center;
         transition: all 0.5s ease;
+                 border-radius: 5px;
+    backdrop-filter: blur(11px) saturate(180%);
+    -webkit-backdrop-filter: blur(11px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.19);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
 }
 
 #cards:hover {
     transform: scale(1.05);
     transition: all 0.5s ease;
+    border: #00ffe1 1px solid;
+    box-shadow: 0 0 3px #00ffe1;;
 }
 
 .card-one {
@@ -499,12 +508,12 @@ input[type=submit]:hover {
 }
 
 .card-two {
-    grid-column: 2/3;
+    grid-column: 2/5;
 }
 
 .card-four {
-    grid-column: 3/4;
-  grid-row: 2/3;
+    grid-column: 2/4;
+  grid-row: 3/4;
 }
 
 .card-three {
@@ -518,4 +527,44 @@ input[type=submit]:hover {
     justify-content: center;
     gap: 3em;
     
+}
+
+.icons {
+    transition: all 0.3s ease;
+}
+
+.icons:hover {
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+
+}
+
+.about-footer {
+background: #1b1b1b;
+color: #ffffff;
+}
+
+svg {
+    width: 20px;
+}
+
+.middlewrap {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.asidewrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-book {
+    background: #00544a;
+}
+
+.bgwrap {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(bilder/bgtwo.jpg);
+    background-size: cover;
 }
