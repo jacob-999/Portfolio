@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>about</title>
+    <script src="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+"></script>
+<link href="
+https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+" rel="stylesheet">
 <script
   src="https://code.jquery.com/jquery-3.7.1.js"
   integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
@@ -23,31 +29,69 @@
     
     <main id="main-about">
 
-    <article id="cards">
-    <h2 class="card-header">Lorem</h2>
+    <article id="cards" class="card-one">
+    <h2 class="card-header">About me</h2>
+    <div class="icon-placeholder">
+        <img src="bilder/css.svg" alt="css icons">
+        <img src="bilder/html.svg" alt="css icons">
+        <img src="bilder/javascript.svg" alt="css icons">
+    </div>
+     <p class="card-paragraf">I'm a self-taught web designer and marketing agent with experience in building and promoting websites that convert. I work with tools like Google Ads, HTML, CSS, JavaScript, Wix, Figma, and Framer to create visually compelling and user-friendly web experiences. My focus is on eye catching design and strategy to help brands stand out and grow online.</p>
+    </article>
+
+         <article id="cards" class="card-two">
+    <h2 class="card-header">Website Creation</h2>
      <p class="card-paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur iure, culpa sint nulla eius maiores id fugiat consectetur ipsum deserunt recusandae cum tempore, dolorem, veniam saepe odio sit incidunt!</p>
     </article>
 
-        <article id="cards">
-    <h2 class="card-header">Lorem</h2>
+         <article id="cards" class="card-three">
+    <h2 class="card-header">Digital marketing</h2>
      <p class="card-paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur iure, culpa sint nulla eius maiores id fugiat consectetur ipsum deserunt recusandae cum tempore, dolorem, veniam saepe odio sit incidunt!</p>
     </article>
 
-        <article id="cards">
-    <h2 class="card-header">Lorem</h2>
-     <p class="card-paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur iure, culpa sint nulla eius maiores id fugiat consectetur ipsum deserunt recusandae cum tempore, dolorem, veniam saepe odio sit incidunt!</p>
+        <article id="cards" class="card-four">
+    <h2 class="card-header">UI & Funtion</h2>
+     <p class="card-paragraf">I focus on both UI and function making sure every project not only looks great but works flawlessly. I’m always pushing for that extra detail that makes a site stand out and keeps clients happy.</p>
     </article>
-
-        <article id="cards">
-    <h2 class="card-header">Lorem</h2>
-     <p class="card-paragraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis consequuntur iure, culpa sint nulla eius maiores id fugiat consectetur ipsum deserunt recusandae cum tempore, dolorem, veniam saepe odio sit incidunt!</p>
-    </article>
-
 
         
 
     </main>
 
+    <footer class="about-footer">
+
+  <aside class="lane">
+<h2 class="footerheader">Links</h2>
+<a href="" class="footerlinks">Home</a>
+<a href="" class="footerlinks">Book</a>
+<a href="" class="footerlinks">About</a>
+<a href="" class="footerlinks">Contact</a>
+  </aside>
+
+    <aside class="lane">
+<h2 class="footerheader">Info</h2>
+<p class="footercontent">Email: Jacob.berggren00@gmail.com</p>
+  </aside>
+
+
+    <aside class="lane">
+<h2 class="footerheader">test</h2>
+<p class="footercontent">test</p>
+  </aside>
+
+
+</footer>
+
 </div>
+<script>
+  new Splide( '.splide', {
+   width  : '100%',
+   height  : '100px',
+   focus: 'center',
+   type: 'slide',
+   perPage: 1,
+   type: 'loop'
+  } ).mount();
+</script>
 </body>
 </html>
