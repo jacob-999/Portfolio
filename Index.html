@@ -14,8 +14,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
-<body>
 
+
+ <!---Välkommen till min kaotiska html xd vänta tills du ser css haha. Hoppas det räckte xd-->
+ <!---Denna uppgift gav mig förståelse på hur allt fungerar evigt tacksam-->
+
+<body>
 
     <div class="wrapper">
 
@@ -50,20 +54,21 @@
 </div>
 
 
-<!--- fortarande dålig fixa senast 06 aug glöm ej section/jssplide-->
- 
+<!--- section/jssplide = klar-->
 <section class="splide" role="group" aria-label="Splide Basic HTML Example">
+   <div class="wrapsplide">
   <h1 class="mywork">MY WORK</h1> 
     <div class="splide__track">
 		<ul class="splide__list">
-			<li class="splide__slide"><div class="videowrapper"><video src="video/auto.mp4" autoplay muted loop playsinline ></video></div></li>
-			<li class="splide__slide"><div class="videowrapper"><video src="video/beauty.mp4" autoplay muted loop playsinline ></video></div></li>
-			<li class="splide__slide"><div class="videowrapper"><video src="video/two.mp4" autoplay muted loop playsinline ></video></div></li>
+			<li class="splide__slide"><video src="video/auto.mp4" autoplay muted loop playsinline ></video></li>
+			<li class="splide__slide"><video src="video/beauty.mp4" autoplay muted loop playsinline ></video></li>
+			<li class="splide__slide"><video src="video/two.mp4" autoplay muted loop playsinline ></video></li>
 		</ul>
   </div>
+</div>
 </section>
 
-<!---Ny section med kort-->
+<!---Ny section med kort = klar-->
 
 <section class="vision">
     <section class="section-text">
@@ -71,7 +76,7 @@
     <H1 class="with">YOUR VISION WITH ME</H1>
     </section>
 
-<!---Lägg till kort här-->
+<!---Lägg till kort här =klar -->
 
     <article class="flexwrap">
     <article class="cards">
@@ -93,7 +98,7 @@
 </section>
 
 
-<!---Into reality section-->
+<!---Into reality section = klar-->
 
 <section class="booksectionhome">
   <h2 class="booksection-header">IDEA INTO REALITY</h2>
@@ -111,7 +116,7 @@
     <h2 class="card-footerheader"> Build with me</h2>
     <p class="card-footerparagraf">Over 60+ projects </p>
 
-    <!---Heroicons svg länk-->
+    <!---Heroicons svg länk = klar-->
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9.776c.112-.017.227-.026.344-.026h15.812c.117 0 .232.009.344.026m-16.5 0a2.25 2.25 0 0 0-1.883 2.542l.857 6a2.25 2.25 0 0 0 2.227 1.932H19.05a2.25 2.25 0 0 0 2.227-1.932l.857-6a2.25 2.25 0 0 0-1.883-2.542m-16.5 0V6A2.25 2.25 0 0 1 6 3.75h3.879a1.5 1.5 0 0 1 1.06.44l2.122 2.12a1.5 1.5 0 0 0 1.06.44H18A2.25 2.25 0 0 1 20.25 9v.776" />
 </svg>
@@ -123,7 +128,7 @@
     <h2 class="card-footerheader"> Trusted</h2>
     <p class="card-footerparagraf">By 35+ companies </p>
 
-<!---Heroicons svg länk-->
+<!---Heroicons svg länk =klar -->
 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
   <path stroke-linecap="round" stroke-linejoin="round" d="M15 19.128a9.38 9.38 0 0 0 2.625.372 9.337 9.337 0 0 0 4.121-.952 4.125 4.125 0 0 0-7.533-2.493M15 19.128v-.003c0-1.113-.285-2.16-.786-3.07M15 19.128v.106A12.318 12.318 0 0 1 8.624 21c-2.331 0-4.512-.645-6.374-1.766l-.001-.109a6.375 6.375 0 0 1 11.964-3.07M12 6.375a3.375 3.375 0 1 1-6.75 0 3.375 3.375 0 0 1 6.75 0Zm8.25 2.25a2.625 2.625 0 1 1-5.25 0 2.625 2.625 0 0 1 5.25 0Z" />
 </svg>
@@ -137,7 +142,7 @@
 
 
 
-<!---footer-->
+<!---footer = klar-->
 <footer>
 
   <aside class="lane">
@@ -164,10 +169,13 @@
       </div>
 <script>
   new Splide( '.splide',{
-   focus: 'center',
-   type: 'slide',
-   perPage: 1,
-   type: 'loop'
+    type: 'splide',
+  focus: 'center',
+  perPage: 1,
+  fixedWidth: '600px',
+
+  pagination: false,
+
    } ).mount();
 </script>
 </div>
