@@ -130,7 +130,8 @@ header {
     align-items: center;
    align-content: center;
    flex-direction: column;
-   font-size: 30px;
+   font-size: 25px;
+   margin-left: 70px;
 }
 
 .catchy {
@@ -294,7 +295,8 @@ footer {
      width: 100vw;
 background: #1b1b1b;
 color: #ffffff;
- height: 400px;
+ height: 500px;
+ padding-bottom: 50px;
 }
 
 
@@ -355,7 +357,7 @@ padding-bottom: 12px;
 
 .booksection-header  {
    font-family: "Lexend", sans-serif;
-   font-size: 30pxpx;
+   font-size: 30px;
    color: #000000;
 }
 
@@ -374,10 +376,11 @@ padding-bottom: 12px;
 .footerheader {
     font-size: 23px;
     margin: 0%;
+    padding: 2rem;
 }
 
 .footercontent {
-  font-size: 12px;
+  font-size: 15px;
     font-weight: 200;
 }
 
@@ -388,6 +391,8 @@ padding-bottom: 12px;
     font-weight: 200;
     text-decoration: none;
     color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+
 }
 
 
@@ -396,9 +401,11 @@ padding-bottom: 12px;
  display: flex;
     justify-content: center;
     padding-bottom: 150px;
+        margin-left: 45px;
 }
 
 .form-conatiner {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -409,7 +416,7 @@ padding-bottom: 12px;
     color: #000000;
     width: 360px;
     text-align: center;
-    transform: scale(1);
+    margin-top: 50px;
 }
 
 input,textarea {
@@ -481,8 +488,8 @@ input[type=submit]:hover {
     width: 100vw;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(auto, 1fr);
-    gap: 1rem;
+    grid-auto-rows: auto;
+    gap: 2rem;
     margin-top: 25px;
     padding-bottom: 150px;
 }
