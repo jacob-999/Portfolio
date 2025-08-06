@@ -1,17 +1,19 @@
+
+
 body {
-   background-color: black;
+   background-color: #000000;
     font-family: "Lexend", sans-serif;
     width: 100vw;
     height: auto;
     color: white;
     margin: 0px;
-    overflow-x: hidden
+    overflow-x: hidden;
+
 }
 
 .wrapper {
     width: 100vw;
 }
-
 
 html, body {
   overflow-x: hidden;
@@ -32,7 +34,7 @@ html, body {
 .backgroundwrap {
     margin: 0%;
     width: 100vw;
-    height: 480px;
+    height: 700px;
      background-image: 
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(bilder/backgroundeffect.jpg);
@@ -55,7 +57,7 @@ html, body {
 
 
 nav {
-    font-size: 8px;
+    font-size: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +77,7 @@ gap: 2rem;
 .booknow {
   padding: 3px 20px;
   border-radius: 10px;
-  font-size: 6px;
+  font-size: 14px;
   color: #ffffff;
   text-shadow: none;
   background: transparent;
@@ -102,7 +104,7 @@ gap: 2rem;
 }
 
 .logo {
-    width: 80px;
+    width: 150px;
     margin: 0;
 }
 
@@ -118,6 +120,7 @@ header {
 
 }
 
+
 .pixel {
     margin-top: 40px;
     height: 50px;
@@ -127,6 +130,7 @@ header {
     align-items: center;
    align-content: center;
    flex-direction: column;
+   font-size: 30px;
 }
 
 .catchy {
@@ -137,7 +141,7 @@ header {
 
 
 .pixeleffect {
-    width: 80px;
+    width: 120px;
 }
 
 
@@ -159,6 +163,7 @@ header {
 
 .mywork {
     color: rgb(0, 0, 0);
+    font-size: 40px;
     padding-bottom: 60px;
 }
 
@@ -167,15 +172,16 @@ header {
 
 
 video {
-    width: 600px;
+    width: 800px;
     border-radius: 9px;
+    cursor: grab;
 }
 
 
 .vision {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(bilder/cube.jpg);
     background-size: cover;
-    height: 600px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,6 +210,7 @@ text-align: center;
 .section-text {
     text-align: center;
     margin-bottom: 30px;
+    font-size: 30px;
 }
 
 .with {
@@ -217,10 +224,10 @@ text-align: center;
 
 .cards {
     margin-top: 30px;
-    font-size: 10px;
+    font-size: 15px;
     padding: 16px;
     padding-bottom: 26px;
-    width: 150px;
+    width: 230px;
     height: fit-content;
          border-radius: 5px;
     backdrop-filter: blur(11px) saturate(180%);
@@ -228,21 +235,21 @@ text-align: center;
     background-color: rgba(17, 25, 40, 0.19);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
-    line-height: 10px;
+    line-height: 17px;
     text-align: center;
     transition: all 0.3s ease;
 }
 
 .card-header {
 font-family: "Lexend", sans-serif;
-line-height: 20px;
+line-height: 25px;
 }
 
 
 .card-paragraf {
 Font-family: "Open Sans", sans-serif;
 font-weight: 100;
-font-size: 8px;
+font-size: 12px;
 margin-bottom: 20px;
 }
 
@@ -257,7 +264,7 @@ margin-bottom: 20px;
     margin: 15px;
   padding: 3px 20px;
   border-radius: 10px;
-  font-size: 6px;
+  font-size: 12px;
   color: #ffffff;
   text-shadow: none;
   background: transparent;
@@ -287,17 +294,16 @@ footer {
      width: 100vw;
 background: #1b1b1b;
 color: #ffffff;
- padding-top: 50px;
- padding-bottom: 50px;
+ height: 400px;
 }
 
 
 .card-footer {
     margin-top: 30px;
     margin-bottom: 100px;
-    font-size: 10px;
+    font-size: 12px;
     padding: 16px;
-    width: 150px;
+    width: 200px;
     height: fit-content;
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
@@ -325,7 +331,8 @@ font-family: "Lexend", sans-serif;
 .card-footerparagraf {
 Font-family: "Open Sans", sans-serif;
 font-weight: 100;
-font-size: 8px;
+font-size: 12px;
+padding-bottom: 12px;
 }
 
 
@@ -348,7 +355,7 @@ font-size: 8px;
 
 .booksection-header  {
    font-family: "Lexend", sans-serif;
-   font-size: 15px;
+   font-size: 30pxpx;
    color: #000000;
 }
 
@@ -365,20 +372,19 @@ font-size: 8px;
 }
 
 .footerheader {
-    font-size: 11px;
+    font-size: 23px;
     margin: 0%;
 }
 
 .footercontent {
-  font-size: 8px;
+  font-size: 12px;
     font-weight: 200;
-    margin: 0;
 }
 
 
 
 .footerlinks {
-    font-size: 8px;
+    font-size: 15px;
     font-weight: 200;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -401,13 +407,13 @@ font-size: 8px;
     padding: 30px;
     border-radius: 8px;
     color: #000000;
-    width: 300px;
+    width: 360px;
     text-align: center;
-    transform: scale(0.7);
+    transform: scale(1);
 }
 
 input,textarea {
-    font-size: 7px;
+    font-size: 12px;
     padding: 5px;
     color: #000000;
     background: #d7d7d7;
@@ -423,7 +429,7 @@ textarea {
 label {
     Font-family: "Open Sans", sans-serif;
     font-weight: 100;
-    font-size: 11px;
+    font-size: 15px;
 }
 
 
@@ -476,13 +482,21 @@ input[type=submit]:hover {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(auto, 1fr);
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 25px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
+.card p {
+    font-size: 15px;
+}
+
+.card h2 {
+    font-size: 30px;
+}
 
 .card {
+    max-width: max-content;
     width: fit-content;
     height: fit-content;
     padding: 25px;
@@ -526,14 +540,15 @@ input[type=submit]:hover {
 
 #card-three {
     grid-column: 4/5;
+
 }
 
 .icon-placeholder {
     padding: 15px;
-    width: 30px;
+    width: 40px;
     display: flex;
     justify-content: center;
-    gap: 3em;
+    gap: 2em;
     
 }
 
@@ -579,11 +594,7 @@ color: #ffffff;
 }
 
 form p {
-    font-size: 8px;
+    font-size: 11px;
 }
 
 
-.footercontent {
-    line-height: 12px;
-    padding-top: 10px;
-}
